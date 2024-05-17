@@ -1,0 +1,125 @@
+#mainBox{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#calculatorOutline{
+    width: 300px;
+    border: 2px solid black;
+    height: 300px;
+    box-shadow: 12px 12px 12px red;
+}
+#InputMainDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+#calculatorOutline > #one > button{
+    border: none;
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    font-size: medium;
+    font-weight: bolder;
+    
+}
+#calculatorOutline > #two > button{
+    border: none;
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    font-size: medium;
+    font-weight: bolder;
+    
+}
+#calculatorOutline > #three > button{
+    border: none;
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    font-size: medium;
+    font-weight: bolder;
+    
+}
+#calculatorOutline > #one > button{
+    border: none;
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    font-size: medium;
+    font-weight: bolder;
+    
+}
+#calculatorOutline > #three > button:active{
+    border: none;
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    font-size: medium;
+    font-weight: bolder;
+    background-color: gainsboro;
+    transform: translateY(4px);
+    transition: 0.5s;
+    
+}
+#calculatorOutline > #four > button{
+    border: none;
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    font-size: medium;
+    font-weight: bolder;
+    
+}
+#calculatorOutline > #five > button{
+    border: none;
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    font-size: medium;
+    font-weight: bolder;
+    
+}
+#one{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15px;
+}
+#two{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15px;
+}
+#three{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15px;
+}
+#four{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15px;
+}
+#five{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15px;
+}
+#resultBox{
+    width: 100%;
+    height: 50px;
+    font-weight: bolder;
+    color: red;
+    font-size: larger;
+
+}

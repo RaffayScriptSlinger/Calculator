@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="mainBox">
+        <div id="calculatorOutline">
+            <div id="InputMainDiv">
+            <input type="text" name="" id="resultBox">
+        </div>
+            <!-- Row Number 01 -->
+            <div id="one">
+                <button onclick="calcutaorFunction(`%`)">%</button>
+                <button onclick="deleteAllValues(``)" >CE</button>
+                <button id="clear" onclick="deleteFunctionSingle(`C`)" >C</button>
+                <button >x</button>
+            </div>
+            <!-- Row Number 02-->
+            <div id="two">
+                <button onclick="calcutaorFunction(`7`)" >7</button>
+                <button onclick="calcutaorFunction(`8`)">8</button>
+                <button onclick="calcutaorFunction(`9`)">9</button>
+                <button onclick="calcutaorFunction(`*`)" id="multiply">X</button>
+            </div>
+             <!-- Row Number 03-->
+            <div id="three">
+                <button onclick="calcutaorFunction(`4`)">4</button>
+                <button onclick="calcutaorFunction(`5`)" >5</button>
+                <button onclick="calcutaorFunction(`6`)">6</button>
+                <button id="minus"  onclick="calcutaorFunction(`-`)">-</button>
+            </div>
+             <!-- Row Number 04--> 
+            <div id="four" >
+                <button onclick="calcutaorFunction(`1`)">1</button>
+                <button onclick="calcutaorFunction(`2`)">2</button>
+                <button onclick="calcutaorFunction(`3`)" >3</button>
+                <button id="add" onclick="calcutaorFunction(`+`)">+</button>
+            </div>
+             <!-- Row Number 05--> 
+             <div id="five">
+                <button>+\-</button>
+                <button onclick="calcutaorFunction(`0`)" >0</button>
+                <button onclick="calcutaorFunction(`.`)">.</button>
+                <button id="equalTo" onclick="calculate()" >=</button>
+            </div>
+        </div>
+    </div>
+    <input type="" name="" id="display1">
+    <script src="app.js"></script>
+</body>
+
+
+</html>
